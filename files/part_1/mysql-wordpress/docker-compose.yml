@@ -1,14 +1,23 @@
 version: '3.3'
 
 services:
-  mysql8:
-    image: mysql:8.0.16
+  mysql:
+    image: mysql:5.7
     ports:
      - "3600:3600"
+    configs:
+      - source: my_cnf
+        target: /etc/my.cnf
     volumes:
-     - mysql_data:/var/lib/mysql
-     - /home/ubuntu/docker/volumes/etc/my.cnf:/etc/my.cnf
-     - mysql_log:/var/log/mysql
+     - type: volume
+       source: mysql_data
+       target: /var/lib/mysql
+     - type: volume
+       source: mysql_log
+       target: /var/log/mysql
+     - type: bind
+       source: ./etc/my.cnf
+       target: /etc/my.cnf
     environment:
       MYSQL_ROOT_PASSWORD: db.test-1
       MYSQL_DATABASE: wordpress
@@ -17,16 +26,19 @@ services:
 
   wordpress:
     depends_on:
-      - mysql8
+      - mysql
     image: wordpress:latest
     ports:
       - "8000:80"
     restart: always
     environment:
-       WORDPRESS_DB_HOST: mysql8:3306
+       WORDPRESS_DB_HOST: mysql:3306
        WORDPRESS_DB_USER: wordpress
        WORDPRESS_DB_PASSWORD: wordpress
        WORDPRESS_DB_NAME: wordpress
 volumes:
     mysql_data: {}
     mysql_log: {}
+configs:
+  my_cnf:
+    file: ./etc/my.cnf
