@@ -1,0 +1,34 @@
+auth:
+  region: us-phoenix-1
+  tenancy: ocid1.tenancy.oc1..aaaaaaaax7u7fuszrnsib7pqky6atfxxndsofbezxtw4gnqbik72c47tbi3a
+  user: ocid1.user.oc1..aaaaaaaagya4rlqhh2ucm3vgpcmpdrqzwfdjpoy7xtufopuwy5s5nxiezlza
+  key: |
+    -----BEGIN RSA PRIVATE KEY-----
+    MIIEpAIBAAKCAQEArVxKESlN/7VWHjJ5fyZ58a1UDt2XxX3IOIlQFsdtc1TbkAqD
+    O5XQ1/EYhFUvhmyD/IeoU4L28POWpbyIjvOhmw8ykUZOIfUVFAOaj1KpD6Ox4eXz
+    PXL3IMi8fSrMvelcrrbLeJipUX/dwKzj5URTnH4uIN/i+04MqqpFmeFH4CXUMus2
+    W3AaiMJVMJUEyQAOICCVZamErG/GzM0Hy1pOFpU0vuRbTTY2ab/zBQmtNWuk6/3t
+    hR2eOwBQ6nSnlmLEVdIyrT1LV5TdVmSWHnKed7sxCjYFQkdW3jEvhLLzwn7YSYHB
+    X1WH9fJy91yl7eCswtU9cmwEwpGIylMJIfl+FQIDAQABAoIBACbpTh6n/L/mfdvt
+    TGQDyN88Hl/v0P8dCnHWMEnMnX6Dj3y3P1mCeQvfK7eYP0CW3tExydBk1vSiWC//
+    L0+W07EwKhN9ilAI6KBDZs/Ap/3Aqk6gBIbIZTvQkq4tiyMdXBZDJUx+R5Lpdmam
+    58gwG+xGTihG2HW7wRAVg+XUMQPYWufUI23oZSy1hEEjWK2cgOTOJTOkOPX8LwS2
+    zafiZIZNdxjBHQajDnzuHlmbRSRk6+osxSF9eESSu/Jb1FMLP7QVUVy+mKNXkxyd
+    jtYRsAJkf0AXoq054OFQxOIg8FH4TisIC8tjsGNqAH/agV1+oRjxcyH7HUhlXxkH
+    ZyAbzYkCgYEA5e/ArdKnOXxpRHEOPASwMgFZKxqx5Yfoh0fR3XtkUAWJ4nutg2fk
+    n3Y5RfuhUzeoEubjUUSF8yw9yyeV+jhRU3eWp/us2F8CFyQOwNaPTGry8eAnJ1n+
+    6MTLEmmmRejbuOQoE3N2IAUw0mF/j18UmL0PcivMeUoOCKhsnUL5yIMCgYEAwQLT
+    dgQ+2nxF1eoIKYve1cwqZ3FDoMZkbKXFjqWVXPicQ9lUd6BC/Hs5oJ2eiCZzi6Gd
+    ohhheqQzUg4OJBx3PHYk5H4fD6KQObccB4wrMa3AmHeFeSDVW9cHiqj+FmRvA+kW
+    l+YalJzMAEUzNl7nZAywhq7CXSbzhA791+Ima4cCgYEAnNulse7WrVy14z7M2xzH
+    phVNYx5e5ZqFgmP4QwN+NyjQG3ULtW0WhcH86ET0lPSO7/YadMIuLumrbf+fTIdG
+    043tdMM38pM9tdOfTOYR86ux+FdV3n6CawB1GCaCi4aC/eqHfF1z4/wmhh6FCqVu
+    Q5QWCWjfoI5obHeZQN8Dz0kCgYEAkN+2Kdd19jlhkfdguQ6r7H6bNZnm0T8ZEhQ7
+    /Z58RpS1dpgitsgsf6de0hh9bmSuRhjBYXI7ePrXKrgyFRjoxxFHD9s7JVk4OJoh
+    B+lGYruw3MCaBxmGDLGSj5nZXqV0TtMeilXFjddDqNBIaH9D3+1Gc1GpwpICJxW5
+    o9m0TPECgYBxxuiEuzvqbuynCwYKsQQ6g3+Hx5THCFIQI+/m8LMfIS9P6Uyg9ReI
+    HJsr+IWs9kNodYhY4ZQ7R4glvb2aj20nu2F03av4faF4a7Ne4KSuRjaSPw2JKujY
+    vQJrKSSZ+zGi/0uh8SWOGUHwtvXmApH4dOcixdVjA5Ssk4KT8MdfCw==
+    -----END RSA PRIVATE KEY-----
+  fingerprint: 8e:0e:11:3b:79:dc:b4:ec:22:85:60:35:12:7e:01:ff
+compartment: ocid1.compartment.oc1..aaaaaaaaf7g5zqhmfo7vqjrmlkvyvrmodyxeupxb4dyerjrqi2wptu47d2ia
