@@ -5,14 +5,13 @@ metadata:
   name: wordpress-router
   labels:
     app: wordpress-router
-  annotations:
-    external-dns.alpha.kubernetes.io/hostname: www.kubernetes-cluster.com
 spec:
   ports:
-    - port: 80
+    - protocol: TCP
+      port: 80
+      targetPort: 80
   selector:
     app: wordpress-router
-  type: LoadBalancer
 ---
 apiVersion: extensions/v1beta1
 kind: Deployment
